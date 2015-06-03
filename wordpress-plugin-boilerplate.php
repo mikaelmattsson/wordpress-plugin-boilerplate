@@ -19,6 +19,6 @@
  * Text Domain: wordpress-plugin-boilerplate
  */
 
-require_once ESI_PATH.'vendor/autoload.php';
+require_once './vendor/autoload.php';
 
 CompanyName\PluginName\Hooks::setup();
