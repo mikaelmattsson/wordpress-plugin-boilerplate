@@ -27,8 +27,11 @@ When you want to push an update, use the following command:
 svn update
 cd trunk
 git pull 2>&1
+git reset --hard 2>&1
+git clean -fd 2>&1
 composer update --optimize-autoloader --no-dev --prefer-dist
 cd ..
+svn st | grep ^! | awk '{print " --force "$2}' | xargs svn rm # Delete all locally missing files 2>&1
 svn add --force trunk/* --non-interactive --auto-props --parents --depth infinity
 svn ci -m 'Update' --username svnusername --password svnpassword --non-interactive
 ```
