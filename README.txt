@@ -1,4 +1,4 @@
-=== Elasticsearch Indexer ===
+=== Wordpress Plugin Boilerplate ===
 Contributors: mikaelmattsson
 Tags: boilerplate, composer
 Requires at least: 3.6
