@@ -41,6 +41,6 @@ svn ci -m 'Update' --username svnusername --password svnpassword --non-interacti
 - https://wordpress.org/plugins/add/
 - https://wordpress.org/plugins/about/svn/
 
-### Also check out
+#### Also check out
 - https://github.com/getherbert/herbert
 
